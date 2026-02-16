@@ -1,0 +1,13 @@
+{
+  "strategy": "grid",
+  "version": "1.0.0",
+  "upper_price": 70000,
+  "lower_price": 60000,
+  "grid_count": 20,
+  "investment": 10000,
+  "take_profit": 15,
+  "stop_loss": 10,
+  "pair": "BTCUSDT",
+  "order_type": "limit",
+  "notes": "Default grid trading configuration for BTC/USDT"
+}

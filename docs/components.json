@@ -1,0 +1,75 @@
+{
+  "$schema": "https://binance-skills.github.io/schema/components.json",
+  "version": "1.0.0",
+  "generatedAt": "2026-02-16T00:00:00Z",
+  "skills": [
+    {
+      "name": "smart-contract-audit",
+      "description": "Audit Solidity smart contracts for common vulnerabilities including reentrancy, overflow, and access control issues",
+      "provider": "official",
+      "category": "blockchain",
+      "type": "skill",
+      "version": "1.0.0",
+      "author": "binance",
+      "tags": ["blockchain", "solidity", "security", "audit"],
+      "downloads": 0,
+      "path": "official/blockchain/smart-contract-audit",
+      "files": [
+        "SKILL.md",
+        "checklist.md",
+        "templates/audit-report.md"
+      ],
+      "updatedAt": "2026-02-16T00:00:00Z"
+    },
+    {
+      "name": "solidity-best-practices",
+      "description": "Write secure and gas-efficient Solidity code following industry best practices",
+      "provider": "official",
+      "category": "blockchain",
+      "type": "skill",
+      "version": "1.0.0",
+      "author": "binance",
+      "tags": ["blockchain", "solidity", "best-practices"],
+      "downloads": 0,
+      "path": "official/blockchain/solidity-best-practices",
+      "files": [
+        "SKILL.md"
+      ],
+      "updatedAt": "2026-02-16T00:00:00Z"
+    },
+    {
+      "name": "grid-trading-strategy",
+      "description": "Design and implement grid trading strategies with configurable parameters and backtesting support",
+      "provider": "official",
+      "category": "trading",
+      "type": "skill",
+      "version": "1.0.0",
+      "author": "binance",
+      "tags": ["trading", "strategy", "grid", "backtesting"],
+      "downloads": 0,
+      "path": "official/trading/grid-trading-strategy",
+      "files": [
+        "SKILL.md",
+        "scripts/backtest.sh",
+        "config.json"
+      ],
+      "updatedAt": "2026-02-16T00:00:00Z"
+    },
+    {
+      "name": "yield-farming-guide",
+      "description": "Guide for analyzing and participating in DeFi yield farming opportunities safely",
+      "provider": "community",
+      "category": "defi",
+      "type": "skill",
+      "version": "1.0.0",
+      "author": "defi-community",
+      "tags": ["defi", "yield-farming", "liquidity"],
+      "downloads": 0,
+      "path": "community/defi/yield-farming-guide",
+      "files": [
+        "SKILL.md"
+      ],
+      "updatedAt": "2026-02-16T00:00:00Z"
+    }
+  ]
+}
