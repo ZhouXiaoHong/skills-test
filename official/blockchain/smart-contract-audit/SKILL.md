@@ -1,23 +1,22 @@
 ---
 name: smart-contract-audit
-description: Audit Solidity contracts for common vulnerabilities
+description: Audit Solidity smart contracts for common vulnerabilities
 version: 1.0.0
 author: binance
 tags:
   - blockchain
   - solidity
-  - audit
+  - security
 ---
 
 # Smart Contract Audit
 
-Run a structured security review for Solidity contracts.
+Use this skill when reviewing Solidity contracts for security issues.
 
-## Scope
+## Steps
 
-- Reentrancy
-- Access control
-- Arithmetic and precision
-- Oracle and pricing assumptions
+1. Review access control and ownership checks.
+2. Check reentrancy, integer overflow, and unsafe external calls.
+3. Confirm event emissions and error handling.
 
-See `checklist.md` and `templates/audit-report.md` for details.
+See `checklist.md` and `templates/audit-report.md` for guidance.

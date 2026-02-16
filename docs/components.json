@@ -1,62 +1,80 @@
-{
-  "version": "1.0",
-  "generatedAt": "2026-02-16T00:00:00Z",
-  "components": [
-    {
-      "name": "solidity-best-practices",
-      "description": "Apply secure Solidity patterns and common best practices",
-      "provider": "official",
-      "category": "blockchain",
-      "type": "skill",
-      "version": "1.0.0",
-      "author": "binance",
-      "tags": ["blockchain", "solidity", "security"],
-      "downloads": 0,
-      "path": "official/blockchain/solidity-best-practices",
-      "files": ["SKILL.md"],
-      "updatedAt": "2026-02-16T00:00:00Z"
-    },
-    {
-      "name": "smart-contract-audit",
-      "description": "Audit Solidity contracts for common vulnerabilities",
-      "provider": "official",
-      "category": "blockchain",
-      "type": "skill",
-      "version": "1.0.0",
-      "author": "binance",
-      "tags": ["blockchain", "solidity", "audit"],
-      "downloads": 0,
-      "path": "official/blockchain/smart-contract-audit",
-      "files": ["SKILL.md", "checklist.md", "templates/audit-report.md"],
-      "updatedAt": "2026-02-16T00:00:00Z"
-    },
-    {
-      "name": "api-key-scanner",
-      "description": "Scan repositories for potential API key leaks",
-      "provider": "official",
-      "category": "security",
-      "type": "skill",
-      "version": "1.0.0",
-      "author": "binance",
-      "tags": ["security", "secrets", "automation"],
-      "downloads": 0,
-      "path": "official/security/api-key-scanner",
-      "files": ["SKILL.md", "scripts/scan.sh", "scripts/report.py", "patterns/keys.txt"],
-      "updatedAt": "2026-02-16T00:00:00Z"
-    },
-    {
-      "name": "yield-farming-guide",
-      "description": "Evaluate yield farming opportunities and risks",
-      "provider": "community",
-      "category": "defi",
-      "type": "skill",
-      "version": "1.0.0",
-      "author": "community",
-      "tags": ["defi", "yield", "risk"],
-      "downloads": 0,
-      "path": "community/defi/yield-farming-guide",
-      "files": ["SKILL.md"],
-      "updatedAt": "2026-02-16T00:00:00Z"
-    }
-  ]
-}
+[
+  {
+    "name": "smart-contract-audit",
+    "description": "Audit Solidity smart contracts for common vulnerabilities",
+    "provider": "official",
+    "category": "blockchain",
+    "type": "skill",
+    "version": "1.0.0",
+    "author": "binance",
+    "tags": ["blockchain", "solidity", "security"],
+    "downloads": 128,
+    "path": "official/blockchain/smart-contract-audit",
+    "files": [
+      "SKILL.md",
+      "checklist.md",
+      "templates/audit-report.md"
+    ],
+    "updatedAt": "2026-02-16T00:00:00Z"
+  },
+  {
+    "name": "solidity-best-practices",
+    "description": "Apply Solidity coding best practices for readability and safety",
+    "provider": "official",
+    "category": "blockchain",
+    "type": "skill",
+    "version": "1.0.0",
+    "author": "binance",
+    "tags": ["solidity", "best-practices"],
+    "downloads": 64,
+    "path": "official/blockchain/solidity-best-practices",
+    "files": ["SKILL.md"],
+    "updatedAt": "2026-02-16T00:00:00Z"
+  },
+  {
+    "name": "risk-management",
+    "description": "Build practical risk controls for trading strategies",
+    "provider": "official",
+    "category": "trading",
+    "type": "skill",
+    "version": "1.0.0",
+    "author": "binance",
+    "tags": ["trading", "risk"],
+    "downloads": 42,
+    "path": "official/trading/risk-management",
+    "files": ["SKILL.md"],
+    "updatedAt": "2026-02-16T00:00:00Z"
+  },
+  {
+    "name": "yield-farming-guide",
+    "description": "Analyze yield farming opportunities and APR assumptions",
+    "provider": "community",
+    "category": "defi",
+    "type": "skill",
+    "version": "1.0.0",
+    "author": "community-dev",
+    "tags": ["defi", "yield", "apr"],
+    "downloads": 23,
+    "path": "community/defi/yield-farming-guide",
+    "files": [
+      "SKILL.md",
+      "scripts/calculate-apr.py",
+      "examples/uniswap-v3.md"
+    ],
+    "updatedAt": "2026-02-16T00:00:00Z"
+  },
+  {
+    "name": "phishing-defense",
+    "description": "Detect and mitigate phishing risk in Web3 user flows",
+    "provider": "community",
+    "category": "security",
+    "type": "skill",
+    "version": "1.0.0",
+    "author": "community-dev",
+    "tags": ["security", "phishing", "web3"],
+    "downloads": 11,
+    "path": "community/security/phishing-defense",
+    "files": ["SKILL.md"],
+    "updatedAt": "2026-02-16T00:00:00Z"
+  }
+]

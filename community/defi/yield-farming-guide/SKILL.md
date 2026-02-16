@@ -1,20 +1,19 @@
 ---
 name: yield-farming-guide
-description: Evaluate yield farming opportunities and risks
+description: Analyze yield farming opportunities and APR assumptions
 version: 1.0.0
-author: community
+author: community-dev
 tags:
   - defi
   - yield
-  - risk
+  - apr
 ---
 
 # Yield Farming Guide
 
-Use this skill to compare farming strategies and identify protocol risks.
+Use this skill for estimating expected returns and risk factors in DeFi pools.
 
-## Considerations
+## Notes
 
-- Impermanent loss exposure
-- Reward token inflation
-- Smart contract and oracle risks
+- Read `examples/uniswap-v3.md` for assumptions.
+- Use `scripts/calculate-apr.py` for basic APR estimation.

@@ -1,21 +1,20 @@
 ---
 name: solidity-best-practices
-description: Apply secure Solidity patterns and common best practices
+description: Apply Solidity coding best practices for readability and safety
 version: 1.0.0
 author: binance
 tags:
-  - blockchain
   - solidity
-  - security
+  - best-practices
 ---
 
 # Solidity Best Practices
 
-Use this skill when writing or reviewing Solidity contracts.
+Use this skill to enforce style, readability, and common safety patterns in Solidity code.
 
-## Checklist
+## Focus
 
-1. Prefer checks-effects-interactions.
-2. Minimize external calls.
-3. Validate access control and visibility.
-4. Emit events for key state changes.
+- Explicit visibility
+- Custom errors
+- Pull-over-push payments
+- Consistent naming

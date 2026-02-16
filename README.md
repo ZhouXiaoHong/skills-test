@@ -1,2 +1,9 @@
 # skills-test
-Test repository for bnskills CLI - contains various test skills (single-file, multi-file, with scripts)
+
+Test registry repository for `bnskills` CLI integration tests.
+
+Contains sample skills in both `official/` and `community/` trees, including:
+
+- single-file skills
+- multi-file skills
+- skills with helper scripts

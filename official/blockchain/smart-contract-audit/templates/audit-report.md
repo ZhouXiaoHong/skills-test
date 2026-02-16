@@ -1,20 +1,18 @@
 # Audit Report Template
 
-## Summary
+## Scope
 
-- Contract:
-- Risk level:
-- Reviewer:
+- Contract names:
+- Commit hash:
 
 ## Findings
 
-### Finding 1
-- Severity:
-- Description:
-- Impact:
-- Recommendation:
+### Critical
 
-## Conclusion
+### High
 
-- Safe to deploy:
-- Conditions:
+### Medium
+
+### Low
+
+## Recommendations
