@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220">
+  <rect width="900" height="220" fill="#ffffff"/>
+  <rect x="24" y="24" width="852" height="172" rx="16" fill="#F0B90B" opacity="0.10" stroke="#F0B90B"/>
+  <text x="450" y="86" font-family="Arial, sans-serif" font-size="28" text-anchor="middle" fill="#202630">Markdown Demo Asset</text>
+  <text x="450" y="130" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#707A8A">Relative images should resolve to GitHub raw URLs.</text>
+  <text x="450" y="160" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#707A8A">If you can see this, image rendering works.</text>
+</svg>

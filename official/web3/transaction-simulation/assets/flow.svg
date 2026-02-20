@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="240" viewBox="0 0 800 240">
+  <rect width="800" height="240" fill="#ffffff"/>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#D89F00"/>
+    </marker>
+  </defs>
+
+  <rect x="40" y="60" width="200" height="80" rx="12" fill="#F0B90B" opacity="0.12" stroke="#F0B90B"/>
+  <text x="140" y="105" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#202630">Raw Tx</text>
+
+  <rect x="300" y="60" width="200" height="80" rx="12" fill="#F0B90B" opacity="0.12" stroke="#F0B90B"/>
+  <text x="400" y="98" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#202630">Simulate</text>
+  <text x="400" y="120" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#202630">eth_call</text>
+
+  <rect x="560" y="60" width="200" height="80" rx="12" fill="#F0B90B" opacity="0.12" stroke="#F0B90B"/>
+  <text x="660" y="98" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#202630">Decode</text>
+  <text x="660" y="120" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#202630">actions/deltas</text>
+
+  <line x1="240" y1="100" x2="300" y2="100" stroke="#D89F00" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="500" y1="100" x2="560" y2="100" stroke="#D89F00" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <text x="400" y="200" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#707A8A">
+    Preview before signing helps prevent malicious approvals and improves UX.
+  </text>
+</svg>

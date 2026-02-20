@@ -46,6 +46,67 @@
     "updatedAt": "2026-02-16T00:00:00Z"
   },
   {
+    "name": "grid-trading-strategy",
+    "description": "Design and implement grid trading strategies with configurable parameters and backtesting support",
+    "provider": "official",
+    "category": "trading",
+    "type": "skill",
+    "version": "1.0.0",
+    "author": "binance",
+    "tags": ["trading", "strategy", "grid", "backtesting"],
+    "downloads": 18,
+    "path": "official/trading/grid-trading-strategy",
+    "files": ["SKILL.md", "config.json", "scripts/backtest.sh"],
+    "updatedAt": "2026-02-20T00:00:00Z"
+  },
+  {
+    "name": "api-key-scanner",
+    "description": "Scan repositories for potential API key leaks",
+    "provider": "official",
+    "category": "security",
+    "type": "skill",
+    "version": "1.0.0",
+    "author": "binance",
+    "tags": ["security", "secrets", "automation"],
+    "downloads": 8,
+    "path": "official/security/api-key-scanner",
+    "files": ["SKILL.md", "patterns/keys.txt", "scripts/scan.sh", "scripts/report.py"],
+    "updatedAt": "2026-02-20T00:00:00Z"
+  },
+  {
+    "name": "transaction-simulation",
+    "description": "Simulate transactions before signing to prevent malicious approvals and improve wallet UX",
+    "provider": "official",
+    "category": "web3",
+    "type": "skill",
+    "version": "1.0.0",
+    "author": "binance",
+    "tags": ["web3", "security", "wallet", "ux"],
+    "downloads": 0,
+    "path": "official/web3/transaction-simulation",
+    "files": [
+      "SKILL.md",
+      "checklist.md",
+      "examples/sample-payload.json",
+      "assets/flow.svg"
+    ],
+    "updatedAt": "2026-02-20T00:00:00Z"
+  },
+  {
+    "name": "design-token-mapper",
+    "description": "Map design system tokens to Tailwind v4 theme variables using UIKit CSS vars",
+    "provider": "official",
+    "category": "frontend",
+    "type": "skill",
+    "version": "1.0.0",
+    "author": "binance",
+    "tags": ["frontend", "design-system", "tailwind", "tokens"],
+    "downloads": 0,
+    "path": "official/frontend/design-token-mapper",
+    "files": ["SKILL.md", "examples/tokens.json"],
+    "updatedAt": "2026-02-20T00:00:00Z"
+  },
+  {
     "name": "yield-farming-guide",
     "description": "Analyze yield farming opportunities and APR assumptions",
     "provider": "community",
@@ -76,5 +137,33 @@
     "path": "community/security/phishing-defense",
     "files": ["SKILL.md"],
     "updatedAt": "2026-02-16T00:00:00Z"
+  },
+  {
+    "name": "markdown-rendering-showcase",
+    "description": "A playground skill to validate markdown rendering (tables, tasks, code, links, images)",
+    "provider": "community",
+    "category": "frontend",
+    "type": "skill",
+    "version": "1.0.0",
+    "author": "community-dev",
+    "tags": ["markdown", "docs", "gfm", "table"],
+    "downloads": 0,
+    "path": "community/frontend/markdown-rendering-showcase",
+    "files": ["SKILL.md", "notes.md", "assets/demo.svg"],
+    "updatedAt": "2026-02-20T00:00:00Z"
+  },
+  {
+    "name": "csp-hardening",
+    "description": "Harden Content-Security-Policy for web apps without breaking essential scripts",
+    "provider": "community",
+    "category": "security",
+    "type": "skill",
+    "version": "1.0.0",
+    "author": "community-dev",
+    "tags": ["security", "csp", "web"],
+    "downloads": 0,
+    "path": "community/security/csp-hardening",
+    "files": ["SKILL.md"],
+    "updatedAt": "2026-02-20T00:00:00Z"
   }
 ]
