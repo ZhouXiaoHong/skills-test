@@ -9,7 +9,7 @@ tags:
   - automation
 ---
 
-# API Key Scanner
+# API Key Scanner 1
 
 Detect likely secrets in code and configuration files.
 
